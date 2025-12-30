@@ -3,4 +3,3 @@
 -- Add any additional keymaps here
 vim.keymap.set("n", "<leader>ly", "<cmd> Lazy <cr>") desc = {"lazy"}
 vim.keymap.set("n", "<leader>le", "<cmd> LazyExtras <cr>") desc = {"LazyExtras"}
-vim.api.nvim_keymap = ("i", "jj", "<ESC"), { noremap = false}
